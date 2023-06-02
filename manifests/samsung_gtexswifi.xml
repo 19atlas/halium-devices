@@ -2,6 +2,7 @@
 <manifest>
 	<remote name="switch577" fetch="https://github.com/switch577" revision="cm-14.1" />
 	<remote name="ubp" fetch="https://github.com/ubports" />
+
 	<project path="system/bt" name="system_bt" remote="switch577" revision="aosp-7.1" />
 	<project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="switch577" revision="master" />
 	<project name="android_external_gpg" path="external/gpg" revision="halium-9.0" remote="ubp" />
