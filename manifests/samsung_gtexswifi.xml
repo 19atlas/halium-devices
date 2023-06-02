@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="switch577" fetch="https://github.com/switch577" revision="cm-14.1" />
+	<remote name="ubp" fetch="https://github.com/ubports" />
+	<project path="system/bt" name="system_bt" remote="switch577" revision="aosp-7.1" />
+	<project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="switch577" revision="master" />
+	<project name="android_external_gpg" path="external/gpg" revision="halium-9.0" remote="ubp" />
+	<project path="hardware/samsung" name="android_hardware_samsung" remote="switch577" revision="cm-14.1" />
+	<project path="kernel/samsung/gtexswifi" name="android_kernel_samsung_gtexswifi" remote="switch577" />
+	<project path="device/samsung/gtexswifi" name="android_device_samsung_gtexswifi" remote="switch577" />
+	<project path="vendor/samsung/gtexswifi" name="proprietary_vendor_samsung_gtexswifi" remote="switch577" />
+	
+	<project path="hardware/sprd" name="android_hardware_sprd" remote="switch577"/>
+	<project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="los" revision="cm-14.1"/>
+	<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.5" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi" remote="switch577" revision="linaro-7.5.0-2019.12" />
+</manifest>
