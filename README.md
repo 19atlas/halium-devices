@@ -4,7 +4,7 @@ This is a collection of local manifests for halium supported devices, it also
 has a script, that will automatically configure repo to use a specific device
 manifest and check it out.
 
-This repository is located at `$REPO_ROOT/halium/devices`.
+`manifest` folder goes to `$REPO_ROOT/halium/devices`.
 
 ### Usage
 
